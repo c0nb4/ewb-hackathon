@@ -23,7 +23,7 @@ body:
       label: "2. Focus"
       description: "What kind of focus is the good practice about?"
       placeholder: "e.g., Software Design"
-        options:
+      options:
         - 'Software Design'
         - 'Meta'
         - 'Testing'
@@ -42,3 +42,12 @@ body:
         - 'During development'
         - 'After development'
       default: 0
+
+  - type: textarea
+    id: good_practice_explanation
+    attributes:
+      label: "4. Explanation of the Good Practice"
+      description: "Please provide an explanation of the good practice."
+      placeholder: "e.g., This includes not only researching and reusing existing software but also extending it to meet specific needs."
+    validations:
+      required: false
