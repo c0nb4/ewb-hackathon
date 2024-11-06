@@ -22,7 +22,6 @@ body:
     attributes:
       label: "2. Focus"
       description: "What kind of focus is the good practice about?"
-      placeholder: "e.g., Software Design"
       options:
         - 'Software Design'
         - 'Meta'
