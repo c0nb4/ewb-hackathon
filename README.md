@@ -52,6 +52,8 @@ We assume [git](https://git-scm.com/), [python](https://www.python.org/) and [do
 
 ### Installation
 
+As this is a hackathon project, the project structure is not yet fully defined. This will be updated in the future.
+
 1. Clone the repository:
    ```
    git clone https://github.com/username/repo-name.git
