@@ -6,18 +6,18 @@ In this task, we will create a data pipeline to ingest data from different sourc
 ````mermaid
 graph TD
     %% Data Sources
-    A1[GeoData Bavaria\nhttps://geodaten.bayern.de/opengeodata/] --> B[Data Preprocessing]
-    A2[3D Building Models NRW\nhttps://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/3d-gebaeudemodelle] --> B[Data Preprocessing]
-    A3[LOD2 Building Data Berlin\nhttps://daten.berlin.de/datensaetze/lod2-geb-udedaten-berlin] --> B[Data Preprocessing]
+    A1[GeoData Bavaria](https://geodaten.bayern.de/opengeodata/) --> B[Data Preprocessing]
+    A2[3D Building Models NRW](https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/3d-gebaeudemodelle) --> B[Data Preprocessing]
+    A3[LOD2 Building Data Berlin](https://daten.berlin.de/datensaetze/lod2-geb-udedaten-berlin) --> B[Data Preprocessing]
     
     %% Data Preprocessing Step
     B[Data Preprocessing] --> C[Database Storage]
     
     %% Database to Use Cases
-    C[Database Storage] --> D1[GIS Application\nQueries geospatial data]
-    C[Database Storage] --> D2[Urban Planning Tools\nAnalyzes building data]
-    C[Database Storage] --> D3[Public Data Portal\nProvides accessible datasets]
-    C[Database Storage] --> D4[Research Platform\nSupports academic analysis]
+    C[Database Storage] --> D1[GIS Applications Queries geospatial data]
+    C[Database Storage] --> D2[Urban Planning Tools Analyzes building data]
+    C[Database Storage] --> D3[Public Data Portal Provides accessible datasets]
+    C[Database Storage] --> D4[Research Platform Supports academic analysis]
 ````
 
 
