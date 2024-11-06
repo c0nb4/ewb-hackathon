@@ -30,15 +30,15 @@ jobs:
 
       - name: Lint Django templates with djlint
         run: |
-          djlint --reformat --warn --configuration=webcentral/pyproject.toml $(git ls-files 'webcentral/**/*.html')
+          djlint --reformat --warn --configuration=pyproject.toml $(git ls-files 'src/**/*.html')
                   
       - name: Format Python code with black
         run: |
-          black --config webcentral/pyproject.toml webcentral/
+          black --config pyproject.toml 
               
       - name: Analysing the code with pylint
         run: |
-          pylint $(git ls-files 'webcentral/**/*.py') --output=lint.txt || true
+          pylint $(git ls-files 'src/**/*.py') --output=lint.txt || true
 
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
