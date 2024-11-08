@@ -5,7 +5,7 @@ This folder contains all non-code assets used throughout the project, such as im
 ## Folder Structure
 
 The `assets` directory is organized to make it easy to locate and update assets as needed. Below is the recommended structure:
-
+```bash
 assets/
 ├── images/
 │   ├── logos/                # Project and company logos
@@ -15,6 +15,7 @@ assets/
 ├── media/                   # Media files such as audio and video
 │   ├── audio/               # Audio files used within the project
 │   ├── video/               # Video files used within the project
+```
 
 ### Subfolder Descriptions
 

@@ -10,7 +10,7 @@ There are two exemplary questions that the participants will be asked to answer:
 2. How can we help urban planners identify rooftop areas available for PV installation?
 
 ## Project Structure
-
+```bash
 hackathon-project/
 ├── README.md                     # Project overview, setup, usage, and contributions
 ├── LICENSE                       # License file
@@ -42,7 +42,7 @@ hackathon-project/
 └── scripts/
     ├── deploy.sh                 # Deployment script
     └── setup.sh                  # Environment setup script
-
+```	
 
 ## Getting Started
 
